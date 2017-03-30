@@ -1,0 +1,55 @@
+.login{
+            margin-top:0.5%;
+            margin-bottom:1.5%;
+            height:318px;
+            width:354px;
+            background-color:#f7f7f7; 
+            box-shadow: 0.5px 1px 0.5px 0.5px #cdcdcd;
+            }
+            #perfil{
+            margin-top:40px;
+            width: 95px;
+            height: 95px;
+            border-radius: 120px;
+            }
+            p{
+            margin-top:8px; 
+            font-family:Segoe UI Light; 
+            font-size:53px; 
+            color:#6a6a6a;
+            }
+            .formulario{
+            margin-top:30px;
+            height:42px;
+            width:270px; 
+            border: #d9d9d9 solid 1.1px;
+            border-top:#c0c0c0 solid 1.1px;
+            border-radius:1px;
+            padding-left:10px
+            }
+            .btn-primary{
+                font-weight: bold;
+                width:270px;
+                margin-top:10px;
+                border:0.5px solid #3079ed;
+                background-color:#4c8efb;
+                text-shadow: 0 0.05em #427ddd;
+            }
+            .btn-primary:hover{
+                background:linear-gradient(#4d90fe, #357ae8);
+                border:0.5px solid #2f5bb7;
+                text-shadow: 0 0.07em #2a5aa8;
+            }
+            a{
+                text-decoration: none;
+                color:#427fed;
+                margin:50px;
+            }
+            a:hover{
+                color:#427fed;
+            }
+            .icones{
+                width:3%;
+                height:3%;
+            }
+
