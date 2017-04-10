@@ -10,6 +10,5 @@ package modelo;
  * @author Multitec JF
  */
 public class Professor {
-    private codigo;
     
 }
