@@ -30,6 +30,7 @@ CREATE TABLE `professor` (
   `password` varchar(45) DEFAULT NULL,
   `telefone` int(11) DEFAULT NULL,
   `cep` int(11) DEFAULT NULL,
+  `data_nascimento` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -52,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-04-11 13:42:50
+-- Dump completed on 2017-04-11 13:59:50
