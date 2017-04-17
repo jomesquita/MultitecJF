@@ -80,6 +80,11 @@ public class inicio extends javax.swing.JPanel {
         });
 
         jtfEntrar.setText("Entrar");
+        jtfEntrar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jtfEntrarActionPerformed(evt);
+            }
+        });
 
         jtfSair.setText("Sair");
         jtfSair.addActionListener(new java.awt.event.ActionListener() {
@@ -160,12 +165,16 @@ public class inicio extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jtfSairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtfSairActionPerformed
-        // TODO add your handling code here:
+        System.exit(0);
     }//GEN-LAST:event_jtfSairActionPerformed
 
     private void jtfSenhaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtfSenhaActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jtfSenhaActionPerformed
+
+    private void jtfEntrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtfEntrarActionPerformed
+       
+    }//GEN-LAST:event_jtfEntrarActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
