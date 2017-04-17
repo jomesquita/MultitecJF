@@ -5,6 +5,8 @@
  */
 package Tela;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Multitec JF
