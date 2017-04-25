@@ -16,7 +16,7 @@ public class Cliente {
     String nome[] = new String[3];
     boolean logico = false;
     int escolha, i;
-    String pesquisar;
+    String pesquisar, alterar, excluir;
     escolha = Integer.parseInt(JOptionPane.showInputDialog(nome));
         
     
@@ -30,8 +30,37 @@ public class Cliente {
     }
     
     pesquisar = JOptionPane.showInputDialog("Digite o nome que deseja pesquisar: ");
+    logico=false;
     for(i=0; i<nome.length; i++){
+    if (pesquisar.equals(nome[i])){
+    JOptionPane.showMessageDialog(null, "O nome "+ pesquisar+ " está cadastrado");
+    logico=true;
     }
+    }if(logico==false){JOptionPane.showMessageDialog(null, "O nome "+ pesquisar+ " não está cadastrado");}
+    
+    alterar = JOptionPane.showInputDialog("Digite o nome que deseja alterar: ");
+    logico = false;
+    for(i=0; i<nome.length; i++){
+    if (pesquisar.equals(nome[i])){
+    
+    alterar = JOptionPane.showInputDialog("Digite o novo nome: ");
+    nome[i] = alterar;
+    logico=true;
+    }
+    }if (logico==false) {JOptionPane.showMessageDialog(null, "O nome "+ pesquisar+ " não está cadastrado");}
+    
+    excluir = JOptionPane.showInputDialog("Digite o nome que deseja excluir: ");
+    logico = false;
+    for(i=0; i<nome.length; i++){
+    if (excluir.equals(nome[i])){
+    nome[i] = "";
+    
+    logico=true;
+    }
+    
+    }if(logico==false){JOptionPane.showMessageDialog(null, "O nome "+ pesquisar+ " não está cadastrado");}
+    {
+    }while(escolha!=6);
 }
 }
 
