@@ -143,7 +143,7 @@ public class Menucliente extends javax.swing.JFrame {
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 108, Short.MAX_VALUE)
+            .addGap(0, 53, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -156,17 +156,20 @@ public class Menucliente extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 351, Short.MAX_VALUE))
+                .addGap(0, 286, Short.MAX_VALUE))
         );
 
         jMenu3.setText("Cadastro ");
 
+        jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cli.png"))); // NOI18N
         jMenuItem1.setText("Cliente");
         jMenu3.add(jMenuItem1);
 
+        jMenuItem4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/com.png"))); // NOI18N
         jMenuItem4.setText("Equipamento");
         jMenu3.add(jMenuItem4);
 
+        jMenuItem5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/prof.png"))); // NOI18N
         jMenuItem5.setText("Professor");
         jMenu3.add(jMenuItem5);
 
@@ -174,12 +177,15 @@ public class Menucliente extends javax.swing.JFrame {
 
         jMenu4.setText("Consulta");
 
+        jMenuItem3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cli.png"))); // NOI18N
         jMenuItem3.setText("Cliente");
         jMenu4.add(jMenuItem3);
 
+        jMenuItem6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/com.png"))); // NOI18N
         jMenuItem6.setText("Equipamentos");
         jMenu4.add(jMenuItem6);
 
+        jMenuItem7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/prof.png"))); // NOI18N
         jMenuItem7.setText("Professor");
         jMenu4.add(jMenuItem7);
 
@@ -187,25 +193,31 @@ public class Menucliente extends javax.swing.JFrame {
 
         jMenu8.setText("Excluir");
 
+        jMenuItem8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cli.png"))); // NOI18N
         jMenuItem8.setText("Cliente");
         jMenu8.add(jMenuItem8);
 
+        jMenuItem9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/com.png"))); // NOI18N
         jMenuItem9.setText("Equipamento");
         jMenu8.add(jMenuItem9);
 
-        jMenuItem10.setText("jMenuItem10");
+        jMenuItem10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/prof.png"))); // NOI18N
+        jMenuItem10.setText("Professor");
         jMenu8.add(jMenuItem10);
 
         jMenuBar1.add(jMenu8);
 
         jMenu15.setText("Reservas");
 
+        jMenuItem11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/exi.jpg"))); // NOI18N
         jMenuItem11.setText("Exibir");
         jMenu15.add(jMenuItem11);
 
+        jMenuItem13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/efe.png"))); // NOI18N
         jMenuItem13.setText("Efetuar");
         jMenu15.add(jMenuItem13);
 
+        jMenuItem14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/ex.png"))); // NOI18N
         jMenuItem14.setText("Excluir");
         jMenu15.add(jMenuItem14);
 
@@ -225,6 +237,7 @@ public class Menucliente extends javax.swing.JFrame {
         jMenuItem17.setText("Editar");
         jMenu23.add(jMenuItem17);
 
+        jMenuItem18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/excluir.png"))); // NOI18N
         jMenuItem18.setText("Apagar");
         jMenu23.add(jMenuItem18);
 
