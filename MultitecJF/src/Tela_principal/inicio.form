@@ -113,14 +113,14 @@
                       <Group type="102" attributes="0">
                           <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="jtfSenha" min="-2" pref="252" max="-2" attributes="0"/>
+                          <Component id="Senha" min="-2" pref="252" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="1" attributes="0">
                           <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jLabel1" min="-2" pref="218" max="-2" attributes="0"/>
-                              <Component id="jtfLogin" min="-2" pref="249" max="-2" attributes="0"/>
+                              <Component id="Login" min="-2" pref="249" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -136,12 +136,12 @@
                   <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jtfLogin" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Login" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
                       <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-                      <Component id="jtfSenha" min="-2" max="-2" attributes="0"/>
+                      <Component id="Senha" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace pref="42" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
@@ -178,11 +178,11 @@
             <Property name="text" type="java.lang.String" value="Senha:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="jtfLogin">
+        <Component class="javax.swing.JTextField" name="Login">
         </Component>
-        <Component class="javax.swing.JPasswordField" name="jtfSenha">
+        <Component class="javax.swing.JPasswordField" name="Senha">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtfSenhaActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SenhaActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jtfEntrar">

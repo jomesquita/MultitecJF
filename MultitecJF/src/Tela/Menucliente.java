@@ -63,7 +63,7 @@ public class Menucliente extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu3 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
+        CadCliente = new javax.swing.JMenuItem();
         jMenuItem4 = new javax.swing.JMenuItem();
         jMenuItem5 = new javax.swing.JMenuItem();
         jMenu4 = new javax.swing.JMenu();
@@ -230,9 +230,14 @@ public class Menucliente extends javax.swing.JFrame {
 
         jMenu3.setText("Cadastro ");
 
-        jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cli.png"))); // NOI18N
-        jMenuItem1.setText("Cliente");
-        jMenu3.add(jMenuItem1);
+        CadCliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cli.png"))); // NOI18N
+        CadCliente.setText("Cliente");
+        CadCliente.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CadClienteActionPerformed(evt);
+            }
+        });
+        jMenu3.add(CadCliente);
 
         jMenuItem4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/com.png"))); // NOI18N
         jMenuItem4.setText("Equipamento");
@@ -328,6 +333,11 @@ public class Menucliente extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void CadClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CadClienteActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_CadClienteActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -364,6 +374,7 @@ public class Menucliente extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JMenuItem CadCliente;
     private javax.swing.JCheckBoxMenuItem jCheckBoxMenuItem1;
     private javax.swing.JCheckBoxMenuItem jCheckBoxMenuItem2;
     private javax.swing.JLabel jLabel1;
@@ -400,7 +411,6 @@ public class Menucliente extends javax.swing.JFrame {
     private javax.swing.JMenuBar jMenuBar2;
     private javax.swing.JMenuBar jMenuBar3;
     private javax.swing.JMenuBar jMenuBar4;
-    private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem10;
     private javax.swing.JMenuItem jMenuItem11;
     private javax.swing.JMenuItem jMenuItem12;
