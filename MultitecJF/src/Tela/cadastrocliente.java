@@ -5,6 +5,9 @@
  */
 package tela;
 
+import DAO.Conexao;
+import java.sql.Connection;
+import javax.swing.JOptionPane;
 import javax.swing.text.MaskFormatter;
 
 /**
@@ -103,6 +106,12 @@ public class cadastrocliente extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel1.setText("Nome:");
 
+        jtfNome.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jtfNomeActionPerformed(evt);
+            }
+        });
+
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel4.setText("Data de Nascimento:");
 
@@ -146,6 +155,11 @@ public class cadastrocliente extends javax.swing.JFrame {
         jLabel15.setText("Password:");
 
         jtfCadastro.setText("Cadastrar");
+        jtfCadastro.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jtfCadastroActionPerformed(evt);
+            }
+        });
 
         jtfCancelar.setText("Cancelar");
 
@@ -304,6 +318,24 @@ public class cadastrocliente extends javax.swing.JFrame {
         // TODO add your handling code here:
         
     }//GEN-LAST:event_jtfDataDeNascimentoActionPerformed
+
+    private void jtfCadastroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtfCadastroActionPerformed
+// TODO add your handling code here:
+              String nome = jtfNome.getText();
+              String Endereco = jtfEndereco.getText();
+              String Bairro = jtfBairro.getText();
+              String Cidade = jtfCidade.getText();
+              String Uf = jtfUF.getText();
+              String CEP = jtfCEP.getText();
+              String Telefone1 = jtfTelefone1.getText();
+              String Telefone2 = jtfTelefone2.getText();
+              String Email = jtfEmail.getText();
+              String Password = jtfPassword.getText();
+    }//GEN-LAST:event_jtfCadastroActionPerformed
+
+    private void jtfNomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtfNomeActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jtfNomeActionPerformed
 
     /**
      * @param args the command line arguments
